@@ -2,7 +2,11 @@
   "menuitems": [
     {
       "title": "About",
-      "path": "#"
+      "path": "#",
+      "children": [
+      { "title": "Action", "path": "/" }
+      
+    ]
       
     },
     {

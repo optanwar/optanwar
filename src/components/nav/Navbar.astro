@@ -4,6 +4,16 @@ import { Icon } from "astro-icon/components";
 import Dropdown from "./Dropdown.astro";
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 import menuitems from "../data/Nav.json";
+interface Props {
+  childern: string;
+}
+
+
+interface menuitems {
+  title: string;
+  path: string;
+  children?: menuitems[];
+}
 ---
 
 <Container>
