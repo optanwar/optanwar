@@ -1,0 +1,94 @@
+---
+import Container from "./Container.astro";
+import { Icon } from "astro-icon/components";
+import Dropdown from "./Dropdown.astro";
+import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
+import menuitems from "../data/Nav.json";
+---
+
+<Container>
+  <header class="flex flex-col lg:flex-row justify-between items-center">
+    <Astronav>
+      <div class="flex w-full lg:w-auto items-center justify-between">
+        <a href="/" class="text-lg"
+          ><span class="font-bold text-slate-800">OP</span><span
+            class="text-slate-500">TANWAR</span
+          >
+        </a>
+        <div class="block lg:hidden">
+          <MenuIcon class="w-4 h-4 text-gray-800" />
+        </div>
+      </div>
+      <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
+        <ul class="flex flex-col lg:flex-row lg:gap-3 lg:gap-x-10">
+          {
+            menuitems.menuitems.map((item, index) => (
+              <>
+                {item.children && (
+                  <Dropdown
+                    title={item.title}
+                    children={item.children}
+                    lastItem={index === menuitems.length - 1}
+                  />
+                )}
+
+                {!item.children && (
+                  <li>
+                    <a
+                      href={item.path}
+                      class="flex lg:px-3 py-2 items-center text-gray-600 hover:text-gray-900"
+                    >
+                      <span> {item.title}</span>
+                    </a>
+                  </li>
+                )}
+              </>
+            ))
+          }
+        </ul>
+        <div class="lg:hidden flex items-center mt-3 gap-4">
+          <ol class="flex gap-x-10">
+            <li>
+              <Icon name="github" height={20} width={40} />
+            </li>
+            <li>
+              <Icon name="github" height={20} width={40} />
+            </li>
+            <li>
+              <Icon name="github" height={20} width={40} />
+            </li>
+            <li>
+              <Icon name="github" height={20} width={40} />
+            </li>
+            <li>
+              <Icon name="github" height={20} width={40} />
+            </li>
+          </ol>
+        </div>
+      </MenuItems>
+    </Astronav>
+    <div>
+      <div class="hidden lg:flex items-center gap-4">
+        <ol class="flex">
+          <li>
+            <Icon name="github" height={20} width={40} />
+          </li>
+          <li>
+            <Icon name="github" height={20} width={40} />
+          </li>
+
+          <li>
+            <Icon name="github" height={20} width={40} />
+          </li>
+          <li>
+            <Icon name="github" height={20} width={40} />
+          </li>
+
+          <li>
+            <Icon name="github" height={20} width={40} />
+          </li>
+        </ol>
+      </div>
+    </div>
+  </header>
+</Container>
