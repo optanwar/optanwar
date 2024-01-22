@@ -1,8 +1,11 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import Main from "../components/home/Main.astro";
+import MainSection from "../components/home/Main.astro";
+export interface Props {
+  term: string;
+}
 ---
 
 <Layout title="Welcome to Astro.">
-  <Main />
+  <MainSection />
 </Layout>
