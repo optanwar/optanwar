@@ -1,44 +1,44 @@
 {
   "menuitems": [
     {
-      "path": "/public/assets/js.svg",
+      "path": "/assets/js.svg",
       "name": "JavaScript"      
     },
     {
-      "path": "/public/assets/reactjs.svg",
+      "path": "/assets/reactjs.svg",
       "name": "React.js"      
     },
     {
-      "path": "/public/assets/html5.svg",
+      "path": "/assets/html5.svg",
       "name": "HTML"      
     },
     {
-      "path": "/public/assets/css3.svg",
+      "path": "/assets/css3.svg",
       "name": "CSS"      
     },
     {
-      "path": "/public/assets/astro.svg",
+      "path": "/assets/astro.svg",
       "name": "Astro.js"      
     },
     {
-      "path": "/public/assets/tailwind.svg",
+      "path": "/assets/tailwind.svg",
       "name": "Tailwind CSS"      
     },
     {
-      "path": "/public/assets/material-ui.svg",
+      "path": "/assets/material-ui.svg",
       "name": "Material UI"      
     },
     {
-      "path": "/public/assets/bootstrap5.svg",
+      "path": "/assets/bootstrap5.svg",
       "name": "Bootstrap"      
     },
     {
-      "path": "/public/assets/nextjs.svg",
+      "path": "/assets/nextjs.svg",
       "name": "Next.js"      
     },
     
     {
-      "path": "/public/assets/github.svg",
+      "path": "/assets/github.svg",
       "name": "GitHub"      
     }
    

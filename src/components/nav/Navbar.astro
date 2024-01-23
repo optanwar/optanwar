@@ -11,7 +11,7 @@ interface Props {
 interface menuitems {
   title: string;
   path: string;
-  children?: menuitems[];
+  children: menuitems[];
 }
 ---
 
@@ -33,10 +33,12 @@ interface menuitems {
       <MenuItems class="hidden w-full lg:w-auto mt-2 lg:flex lg:mt-0">
         <ul class="flex flex-col lg:flex-row lg:gap-3 lg:gap-x-10">
           {
-            menuitems?.menuitems?.map((item) => (
-              <>
-                <h1>Something wrong</h1>
-              </>
+            menuitems.menuitems.map((items) => (
+              <li class="text-gray-300 px-2 text-lg hover:bg-slate-200 hover:text-black hover:rounded-lg transition-all duration-300">
+                <a href={items.path} class="flex lg:px-3 py-2 items-center">
+                  <span> {items.title}</span>
+                </a>
+              </li>
             ))
           }
         </ul>
