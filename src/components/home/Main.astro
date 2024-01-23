@@ -1,11 +1,57 @@
 ---
 import Navbar from "../nav/Navbar.astro";
+import resume from "../data/Resume.pdf";
 interface Props {
   term?: string;
 }
 ---
 
-<section class="bg-red-600 h-screen">
+<section class="bg-primary-dark_gray py-5 px-10">
   <Navbar />
 
+  <main class="py-10 md:px-12 lg:py-20 xl:px-20 2xl:px-96 2xl:py-36">
+    <h3
+      class="text-gray-200 first-letter:text-3xl text-xl py-2 tracking-wider md:text-2xl"
+    >
+      <span class="text-primary-red font-bold font-roboto">HI,</span> my name is
+    </h3>
+    <h1
+      class="text-4xl text-gray-200 tracking-wide pb-2 font-bold font-roboto md:text-5xl md:my-2"
+    >
+      OP TANWAR.
+    </h1>
+    <h2
+      class="text-gray-200 tracking-wider text-xl font-roboto md:text-2xl md:my-1"
+    >
+      I am a <span class="text-primary-red font-semibold">Web Developer.</span>
+    </h2>
+    <h3
+      class="text-xl text-gray-300 wide leading-8 font-roboto md:text-xl md:my-2"
+    >
+      I am a <span class="text-primary-red font-semibold">Computer Science</span
+      > graduate and I love working on <span
+        class="text-primary-red font-semibold"
+        >Front End Web Development
+      </span>projects.
+    </h3>
+    <h3 class="text-gray-300 text-xl font-roboto leading-8 md:text-xl md:my-1">
+      I have developed real world websites that are currently being used by the
+      people all over <span class="text-primary-red">India</span>.
+    </h3>
+
+    <div class="flex gap-6 my-5 mt-7">
+      <a href="mailto:optanwar10@gmail.com">
+        <button
+          class="border py-3 px-4 text-gray-200 border-primary-red md:px-7 md:py-4 md:text-lg xl:px-10 xl:py-3"
+          >GET IN TOUCH</button
+        ></a
+      >
+      <a href={resume} download="Resume"
+        ><button
+          class="border py-3 px-6 bg-primary-red text-gray-200 border-red-700 hover:bg-red-800 transition-all duration-200 md:px-12 md:py-4 md:text-lg xl:px-14 xl:py-3"
+          >RESUME</button
+        ></a
+      >
+    </div>
+  </main>
 </section>

@@ -1,11 +1,19 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import MainSection from "../components/home/Main.astro";
+import Tools from "../components/home/Tools.astro";
+import Experience from "../components/home/Experience.astro";
+import Projects from "../components/home/Projects.astro";
+import Contact from "../components/home/Contact.astro";
 export interface Props {
   term: string;
 }
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="OP TAWNAR">
   <MainSection />
+  <Tools />
+  <Projects />
+  <Experience />
+  <Contact/>
 </Layout>

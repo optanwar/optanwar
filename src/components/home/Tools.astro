@@ -1,0 +1,31 @@
+---
+import { Image } from "astro:assets";
+import tech from "../data/Tech.json";
+---
+
+<section id="tools" class="bg-primary-gray py-16">
+  <h1 class="font-roboto text-center text-gray-200 text-3xl tracking-wider">
+    <span class="border-b-2 pb-1 border-primary-red uppercase">Tech Stack</span>
+  </h1>
+
+  <div
+    class="flex flex-wrap justify-center w-11/12 mx-auto my-10 gap-y-8 gap-x-10 lg:w-10/12"
+  >
+    {
+      tech.menuitems.map((item) => (
+        <div class="border-gray-500 border rounded-lg shadow-lg shadow-slate-900">
+          <Image
+            src={item.path}
+            height={130}
+            width={150}
+            alt={item.name}
+            class="rounded-xl shadow-lg shadow-slate-900 hover:scale-105 transition-all duration-300"
+          />
+          <p class="text-gray-200 text-center pb-2 bt-1 font-roboto text-lg shadow-sm shadow-slate-400">
+            {item.name}
+          </p>
+        </div>
+      ))
+    }
+  </div>
+</section>

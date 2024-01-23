@@ -2,29 +2,24 @@
   "menuitems": [
     {
       "title": "About",
-      "path": "#",
-      "children": [
-      { "title": "Action", "path": "/" },
-      {"title": "hello", "path": "/hello"}
-      
-    ]
-      
+      "path": "#"
+   
     },
     {
       "title": "Tools",
       "path": "/#tools"
     },
-    {
+      {
+      "title": "Projects",
+      "path": "/#projects"
+    },
+     {
       "title": "Experience",
       "path": "/#experience"
     },
     {
-      "title": "Projects",
-      "path": "/#projects"
-    },
-    {
       "title": "Contact Us",
-      "path": "/contact"
+      "path": "/#contact"
     }    
   ]
 }
