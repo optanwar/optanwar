@@ -14,7 +14,7 @@ export default {
         roboto: ["Roboto", "sans-serif"],
       },
       backgroundImage: {
-        // home: "url('/bg-images/home_bg_img_main.svg')",
+        home: "linear-gradient(to right, rgba(18, 18, 18, 1), rgba(18, 18, 18, .92)), url('/assets/bg.svg')",
       },
     },
   },
