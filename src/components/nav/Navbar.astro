@@ -1,7 +1,7 @@
 ---
 import Container from "./Container.astro";
 import { Icon } from "astro-icon/components";
-import Dropdown from "./Dropdown.astro";
+
 import { Astronav, MenuItems, MenuIcon } from "astro-navbar";
 import menuitems from "../data/Nav.json";
 interface Props {
@@ -21,7 +21,7 @@ interface menuitems {
   >
     <Astronav>
       <div class="flex w-full lg:w-auto items-center justify-between">
-        <a href="/" class="text-2xl"
+        <a href="/" class="text-3xl"
           ><span class="font-bold text-primary-red">OP</span><span
             class="text-slate-200">TANWAR</span
           >
@@ -34,7 +34,7 @@ interface menuitems {
         <ul class="flex flex-col lg:flex-row lg:gap-3 lg:gap-x-10">
           {
             menuitems.menuitems.map((items) => (
-              <li class="text-gray-300 px-2 text-lg hover:bg-slate-200 hover:text-black hover:rounded-lg transition-all duration-300">
+              <li class="text-gray-300 px-2 text-lg hover:bg-slate-200 rounded-lg hover:text-black transition-all duration-300">
                 <a href={items.path} class="flex lg:px-3 py-2 items-center">
                   <span> {items.title}</span>
                 </a>

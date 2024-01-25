@@ -15,8 +15,6 @@ export default {
       },
       backgroundImage: {
         home: "linear-gradient(to right, rgba(18, 18, 18, 0.92), rgba(18, 18, 18, .92)), url('/assets/bg.svg')",
-        tools:
-          "linear-gradient(to right, rgba(18, 18, 18, 0.50), rgba(18, 18, 18, .50)), url('/assets/bg-2.svg')",
       },
     },
   },
