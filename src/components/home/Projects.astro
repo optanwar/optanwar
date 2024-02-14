@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import { Img } from "astro-imagetools/components";
+
 import swimg from "../../../public/assets/swacademy.jpg";
 import portfolio from "../../../public/assets/portfolio.jpg";
 ---
@@ -12,19 +12,14 @@ import portfolio from "../../../public/assets/portfolio.jpg";
 
   <div class="py-16 flex justify-center mx-auto">
     <div class="mx-auto">
-      <!--   <Image
+        <Image
         src={swimg}
         height={1000}
         width={1000}
         alt="SW Academy Home"
         class="w-11/12 lg:w-9/12 rounded-md shadow-lg shadow-slate-800 border border-gray-700 mx-auto transition-all duration-300"
-      /> -->
-      <Img
-        src="/public/assets/swacademy.jpg"
-        alt="A random image"
-        width={750}
-        quality={100}      
-      />
+      /> 
+     
       <h2
         class="w-10/12 mx-auto text-xl capitalize text-center tracking-wider my-5 text-primary-red"
       >
