@@ -12,6 +12,14 @@ export default {
           red: "#ff0008", // pinkish-red
           gray: "#181818", // dar
         },
+        secondary: {
+          orchid: "#E879F9", // astro.js
+          yellow: "#FACC15", // javaScript
+          sky: "#38BDF8", // Tailwind css
+          pink: "#FB7185", // TypeScript
+          react: "#A78BFA", // React
+          web: "#A3E635", // Web design
+        },
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
