@@ -1,6 +1,6 @@
 ---
 import SideIcon from "../components/home/SideIcon.astro";
-
+import { SEO } from "astro-seo";
 interface Props {
   title: string;
 }
@@ -11,16 +11,48 @@ const { title } = Astro.props;
 <!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
+    <SEO
+      title="OP TAWNAR | Frontend Web Developer"
+      description="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product."
+      openGraph={{
+        basic: {
+          title: "OP TAWNAR | Frontend Web Developer",
+          type: "IT and Software Developement",
+          image:
+            "https://avatars.githubusercontent.com/u/109836129?s=400&u=5da2f550419df7bdacb943bf594902fdbb198731&v=4",
+        },
+      }}
+      twitter={{
+        creator: "@optanawar",
+      }}
+      extend={{
+        link: [{ rel: "icon", href: "/favicon.ico" }],
+
+        meta: [
+          {
+            name: "twitter:image",
+            content:
+              "https://avatars.githubusercontent.com/u/109836129?s=400&u=5da2f550419df7bdacb943bf594902fdbb198731&v=4",
+          },
+          { name: "twitter:title", content: "OP TAWNAR | Frontend Web Developer" },
+          { name: "twitter:description", content: "Agent" },
+          {
+            name: "description",
+            content:
+              "A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product",
+          },
+          {
+            name: "author",
+            content: "OP Tanwar",
+          },
+        ],
+      }}
+    />
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <meta
-      name="description"
-      content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product"
-    />
-    <meta name="author" content="OP Tanwar" />
     <meta property="og:title" content="OP TAWNAR | Frontend Web Developer" />
     <meta property="og:site_name" content="OP Tanwar Portfolio Website" />
     <meta property="og:url" content="https://optanwar.vercel.app/" />
