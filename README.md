@@ -1,20 +1,14 @@
-# Astro Starter Kit: Basics
-<!-- <https://github.com/surjithctly/astroship/blob/main/src/components/navbar/dropdown.astro> -->
-```sh
-npm create astro@latest -- --template basics
-```
+O.P. TANWAR's Portfolio Website
+Welcome to my portfolio website built using Astro.js! This website serves as a showcase of my skills, projects, and experience in front-end development.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
+Introduction
+This portfolio website is designed to provide visitors with an overview of my work as a front-end developer. It includes information about my background, skills, and projects, allowing potential clients or collaborators to get a sense of my capabilities.
 Inside of your Astro project, you'll see the following folders and files:
+
+Technologies Used
+1.Astro.js
+2. React
+3. Tailwind CSS
 
 ```text
 /
