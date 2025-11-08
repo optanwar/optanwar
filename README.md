@@ -32,14 +32,6 @@
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=op-tanwar&show_icons=true&theme=tokyonight" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=op-tanwar&layout=compact&theme=tokyonight" height="160" />
-</p>
-
----
-
 ### 🌐 Connect With Me
 
 <p align="center">
