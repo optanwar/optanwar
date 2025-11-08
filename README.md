@@ -5,9 +5,6 @@
 <br/>
 💡 Building fast, responsive, and elegant web applications.
 </p>
+<br/>
+<p align="center"><em>“Turning ideas into smooth, scalable experiences.”</em></p>
 
----
-
-⭐ <em align="center">“Turning ideas into smooth, scalable experiences.”</em>
-
----
