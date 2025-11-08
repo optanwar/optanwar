@@ -8,4 +8,6 @@
 
 ---
 
-⭐ <em>“Turning ideas into smooth, scalable experiences.”</em>
+⭐ <em align="center">“Turning ideas into smooth, scalable experiences.”</em>
+
+---
